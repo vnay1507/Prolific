@@ -122,6 +122,8 @@ function App() {
         />
       </div>
 
+     <Content/>
+     
       {/* 2nd */}
       <div className=" w-full">
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 mt-8">
@@ -162,7 +164,6 @@ function App() {
           </div>
         </div>
       </div>
-     <Content/>
      <div className=" w-full border-t-2 mt-10">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-10">
           <div className=" mx-8  font-normal bg-pink-100 p-3">
@@ -179,7 +180,7 @@ function App() {
               <br />
               own environment.
             </p>
-            
+
           </div>
           <div className="font-semibold ">
             <div className=" shadow-lg bg-pink-100 mx-5 mr-10 p-10 hover:bg-pink-200 rounded-md">
