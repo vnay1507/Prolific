@@ -1,0 +1,15 @@
+body {
+    padding-left:5px;
+    padding-right: 5px;
+  }
+
+
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .animate-pulse {
+    animation: fadeIn 1s ease-out;
+  }
